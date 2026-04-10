@@ -5,13 +5,18 @@ public class Pessoa {
     
     private String nome; 
     private int idade;
-    private int CPF;
+    private int cpf;
 
     public Pessoa(String nome, int idade, int CPF) {
         this.nome = nome;
         this.idade = idade;
-        this.CPF = CPF;
+        this.cpf = cpf;
     }
+
+    public Pessoa() {
+    }
+    
+    
 
     public String getNome() {
         return nome;
@@ -29,12 +34,12 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public int getCPF() {
-        return CPF;
+    public int getCpf() {
+        return cpf;
     }
 
-    public void setCPF(int CPF) {
-        this.CPF = CPF;
+    public void setCpf(int cpf) {
+        this.cpf = cpf;
     }
 }
 
