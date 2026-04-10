@@ -3,7 +3,7 @@ package projetogrupo6;
  
 public class Pessoa {
     
-    private String nome;
+    private String nome; 
     private int idade;
     private int CPF;
 
