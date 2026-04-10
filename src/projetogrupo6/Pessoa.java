@@ -1,6 +1,10 @@
 
 package projetogrupo6;
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 16ebc7fc302feeb94867604f3169e145baeec919
 public class Pessoa {
     
     private String nome; 
