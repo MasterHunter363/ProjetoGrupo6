@@ -31,7 +31,7 @@ public class Main {
                     System.out.print("CPF: ");
                     String cpf = scanner.nextLine();
 
-                    Pessoa p = new Pessoa(nome, idade, opcao);
+                    Pessoa p = new Pessoa(nome, idade, cpf);
                     lista.add(p);
                     System.out.println("Pessoa cadastrada!");
 
